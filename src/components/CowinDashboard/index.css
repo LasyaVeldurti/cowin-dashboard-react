@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  overflow-y: auto;
+  font-family: roboto;
+  height: 100vh;
+}
+.cowin-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  color: #ffffff;
+}
+.logo-container {
+  display: flex;
+  padding-top: 15px;
+}
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+.logo-text {
+  color: #2cc6c6;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.failure-view-container,
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vaccination-coverage-container,
+.vaccination-byage-container {
+  padding: 12px;
+  background-color: #1c1c2b;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
